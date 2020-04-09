@@ -33,20 +33,20 @@ console.log (`A ${empresa.nome} está localizada em ${endereço.Rua}, ${endereç
 // { nome: 'Python', especialidade: 'Data Science' }
 // { nome: 'JavaScript', especialidade: 'Web/Mobile' }
 
-const programador = {
-    name: "Thiago",
-    age: 32
-}
-
-const programador2 = {
-    name: "Sarah",
-    age: 31
-}
-
-const programador3 = {
-    name: "Valentina",
-    age: 3
-}
+const programadores = [
+   {
+       name: "Thiago",
+       age: 32
+   },
+   {
+       name: "Sarah",
+       age: 31
+   },
+   {
+       name: "Valentina",
+       age: 3
+   }  
+]
 
 const tecnologias = [
 
@@ -67,10 +67,10 @@ const tecnologias = [
 // Imprima em tela o nome e especialidade da primeira tecnologia que o usuário utiliza no seguinte formato:
 // O usuário Carlos tem 32 anos e usa a tecnologia C++ com especialidade em Desktop
 
-const Thiago = (`O usuário ${programador.name} tem ${programador.age} anos e usa a tecnologia ${tecnologias[0].name} com especialidade em ${tecnologias[0].especialidade}.`)
-const Sarah =  (`O usuário ${programador2.name} tem ${programador2.age} anos e usa a tecnologia ${tecnologias[1].name} com especialidade em ${tecnologias[1].especialidade}.`)
-const Valentina =  (`O usuário ${programador3.name} tem ${programador3.age} anos e usa a tecnologia ${tecnologias[2].name} com especialidade em ${tecnologias[2].especialidade}.`)
+const Thiago = (`O usuário ${programadores[0].name} tem ${programadores[0].age} anos e usa a tecnologia ${tecnologias[0].name} com especialidade em ${tecnologias[0].especialidade}.`)
+const Sarah =  (`O usuário ${programadores[1].name} tem ${programadores[1].age} anos e usa a tecnologia ${tecnologias[1].name} com especialidade em ${tecnologias[1].especialidade}.`)
+const Valentina =  (`O usuário ${programadores[2].name} tem ${programadores[2].age} anos e usa a tecnologia ${tecnologias[2].name} com especialidade em ${tecnologias[2].especialidade}.`)
 
-const programadores = [Thiago, Sarah, Valentina]
+const programadores1 = [Thiago, Sarah, Valentina]
 
-console.log (programadores)
+console.log (programadores1)
