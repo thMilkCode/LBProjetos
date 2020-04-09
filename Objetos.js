@@ -22,7 +22,7 @@ const media = (aluno01.nota + aluno02.nota + aluno03.nota) / 3
 
 console.log (media)
 
-//  Agrupando valores (Arrays)
+//  Agrupando objetos (Arrays)
 
 const alunos = [
 
